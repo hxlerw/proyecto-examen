@@ -1,0 +1,168 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Tahoma, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #1a202c;
+}
+#MenuPrincipal {
+    background-color: #1a202c;
+    padding: 20px;
+    text-align: center;
+}
+#MenuPrincipal h1 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+#MenuPrincipal nav ul {
+    list-style: none;
+}
+#MenuPrincipal nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+#MenuPrincipal nav a:link, #MenuPrincipal nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+}
+#MenuPrincipal nav a:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.Contenido-principal, .contenedor-seccion {
+    width: 85%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+}
+
+.Titulo-Pagina {
+    display: block;
+    clear: both;
+    font-size: 32px;
+    color: #1a202c;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.subtitulo-pagina {
+    display: block;
+    clear: both;
+    font-size: 18px;
+    color: #4a5568;
+    margin-bottom: 40px;
+    text-align: center;
+}
+p {
+    color: #4a5568;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.cuadricula-productos, .cuadricula-promociones {
+    clear: both;
+    display: block;
+    width: 100%;
+}
+.producto {
+    width: 28%;
+    height: 440px;
+    float: left;
+    margin-left: 4%;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    text-align: center;
+}
+.producto img {
+    width: 100%;
+    max-width: 220px;
+    height: 150px;
+    display: block;
+    margin: 0px auto 15px auto;
+}
+.producto h2 {
+    font-size: 18px;
+    color: #1a202c;
+    margin-bottom: 10px;
+}
+.producto p, .Producto  p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.boton-accion, button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: 1px solid #0056b3;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    display: inline-block;
+}
+button:hover, .boton-accion:hover {
+    background-color: #0056b3;
+}
+.tarjeta-promocion {
+    border: 2px dashed #007bff;
+    background-color: #f0f7ff;
+}
+.precio-Original {
+    text-decoration: line-through;
+    color: #a0aec0;
+    font-size: 14px;
+}
+.precio-oferta {
+    color: #cc0000;
+    font-weight: bold;
+    font-size: 18px;
+}
+.seccion-historia {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f7ac5f;
+    border: 2px solid #1a202c;
+    border-radius: 5px;
+}
+.Contenido-principal p a {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #1a202c;
+    border: 1px solid #1a202c;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.limpiador {
+    clear: both;
+    display: block;
+    height: 1px;
+}
+
+#Piepagina {
+    clear: both;
+    background-color: #edf2f7;
+    color: #4a5568;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 1px solid #cbd5e0;
+    margin-top: 40px;
+}
